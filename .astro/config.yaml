@@ -1,2 +1,6 @@
 project:
-    name: ecommerce-pipeline
+  name: ecommerce_pipeline
+airflow:
+  mounts:
+    - source: ./data
+      target: /usr/local/airflow/data
